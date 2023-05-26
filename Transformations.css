@@ -1,0 +1,48 @@
+#translate{
+    background-color: green;
+    color: white;
+    width:max-content;
+    padding: 0px;
+    /* transform: translate(100px); */
+    /* transform: translateY(100px); */
+    /* transform: translateY(200px); */
+/* transform: translateZ(200px); */
+/* transform: translate3d(10px,200px); */
+
+
+}
+#scale{
+    background-color: orange;
+    color: black;
+    width: max-content;
+    padding: 3px;
+margin:0px auto;
+/* transform: scale(10px); */
+
+/* transform: scaleX(2); */
+
+ /* transform: scaleY(3); */
+ /* transform: scaleZ(2); */
+ transform: scale(2);
+}
+#rotate{
+    background-color:greenyellow;
+    color:yellow;
+    font-size: 40px;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    transform: rotate(45deg);
+    
+}
+#skew{
+    background-color: blue;
+    color:white;
+    width: max-content;
+    padding: 19px;
+    margin: 0px auto;
+    /* transform: skew(25deg); */
+    transform: skewX(45deg);
+    transform: scaleY(-45deg);
+    
+}
